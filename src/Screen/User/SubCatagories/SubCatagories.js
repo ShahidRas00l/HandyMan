@@ -194,6 +194,7 @@ export default function SubCatagories({ navigation, route }) {
                 HandyManOrderProgress:'',IsCanceled:'',IsDelivered:'',ExtraStatus:''
             },
             );
+            
             // console.log("response start ", response)
             // console.log("response",response)
             if (response?.status === 200) {
